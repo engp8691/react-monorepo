@@ -12,5 +12,10 @@
     {
       "path": "./apps/fastify-api"
     }
-  ]
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }

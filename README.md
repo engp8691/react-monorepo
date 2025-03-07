@@ -90,3 +90,5 @@ And join the Nx community:
 - git remote add origin https://github.com/engp8691/react-monorepo.git
 - git branch -M main
 - git push -u origin main
+- nx g @nx/react:storybook-configuration react-monorepo
+- nx storybook react-monorepo / nx run react-monorepo:storybook
