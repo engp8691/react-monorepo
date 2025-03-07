@@ -80,3 +80,13 @@ And join the Nx community:
 - [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
 - [Our Youtube channel](https://www.youtube.com/@nxdevtools)
 - [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+
+
+## Steps
+- npx create-nx-workspace@latest react-monorepo --preset=react-monorepo --workspaces
+- npm install @nx/node --save-dev
+-  npx nx g @nx/node:app apps/fastify-api
+- npx nx serve react-monorepo
+- git remote add origin https://github.com/engp8691/react-monorepo.git
+- git branch -M main
+- git push -u origin main
